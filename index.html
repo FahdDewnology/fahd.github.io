@@ -34,6 +34,60 @@
 				text-align: center;        
 				vertical-align: middle; 
 			}
+			.work-list {
+				text-align: left;
+				list-style-type: disc;
+				margin: 0 0 2rem 2rem;
+				padding-left: 1.5rem;
+				line-height: 1.7;
+				color: #e4e4e4;
+				font-size: 1.05rem;
+			}
+
+			.work-list li {
+				margin-bottom: 0.7rem;
+			}
+
+			.custom-bullets {
+				list-style: none;
+				margin: 0.3rem auto 1.5rem auto;
+				padding-left: 0;
+				max-width: 800px;
+				text-align: left;
+				font-size: 1.05rem;
+				color: #e4e4e4;
+				line-height: 1.7;
+			}
+
+			p + .custom-bullets {
+				margin-top: 0.3rem !important;
+			}
+
+			#intro p {
+				margin-bottom: 0.5rem;
+			}
+
+			.custom-bullets li {
+				position: relative;
+				padding-left: 1.8rem;
+				margin-bottom: 0.8rem;
+			}
+
+			.custom-bullets li::before {
+				content: "";
+				position: absolute;
+				left: 0;
+				top: 0.65em;
+				width: 8px;
+				height: 8px;
+				background: #00bcd4;
+				border-radius: 50%;
+				box-shadow: 0 0 6px rgba(0, 188, 212, 0.6);
+			}
+			h1, h2, h3, h4, h5, h6,
+			p, li, strong, em, i {
+				font-style: normal !important;
+			}
 		</style>
 	</head>
 	<body class="is-preload">
@@ -43,46 +97,76 @@
 
 				<!-- Intro -->
 					<div id="intro">
-						<h1>Fahd Mohamed N</h1>
-						<p>I am a Senior specialist at Credera with experience in Content Management Systems, Search Engine Optimization, Prompt Writing, and Adobe Experience Cloud tools. I also have knowledge of Data Analysis and Visualizations.</p>
-						<table>
+						<h1>Hello there!<br><a style="color:#00bcd4;">I'm Fahd</a></h1>
+						<p>I'm a Digital Content Specialist with 4+ years of experience working with Content Management Systems (CMS), Search Engine Optimisation (SEO), Generative AI and Analytics to create and manage enterprise level websites</p>
+						<p>In my content career, I have worked in multiple CMS like Adobe Experience Manager (AEM), Drupal, HubSpot and Contentful and to keep the websites SEO aligned I have used SEMrush, Screaming Frog, Google Keyword Planner</p>
+						<p>Apart from that I'm also familiar with Adobe GenAI elements like Firefly and Genstudio as well as Analytics tools like Power BI, Tableau, and MySQL</p>
+						<p>I earned my B.E at Rajalakshmi Engineering College in Biomedical in 2021. During my time in college I had done many project which made me eager to explore and learn new technologies</p>
+						<p>On a personal level, I'm passionate about self-improvement and personal growth</p>
+						<p>I believe that we can always learn and grow, both professionally and personally</p>
+						<p>I love solving Rubik's cube 🧩 and playing badminton 🏸</p>
+						<p><strong>This website / portfolio on its own is a project of my mine related to my work</strong></p>
+						<table style="margin-top: 40px;">
 							<thead>
 								<tr>
-									<th style="text-align: center; vertical-align: middle; padding: 10px;"><h2 style="margin: 0;">Skills</h2></th>
-									<th style="text-align: center; vertical-align: middle; padding: 10px;"><h2 style="margin: 0;">Tools / Task</h2></th>
+									<th style="text-align: center; vertical-align: middle; padding: 10px;"><h2 style="margin: 0; color:#00bcd4;">Skills</h2></th>
+									<th style="text-align: center; vertical-align: middle; padding: 10px;"><h2 style="margin: 0; color:#00bcd4;">Tools / Task</h2></th>
 								</tr>								
 							</thead>
 							<tbody>
 							  <tr>
-								<td>Content Authoring in CMS</td>
+								<td><strong>Content Management Systems</strong></td>
 								<td>Adobe Experience Manager<br>Drupal<br>HubSpot<br>Contentful</td>
 							  </tr>
 							  <tr>
-								<td>Technical SEO</td>
-								<td>SEMRush<br>Screaming Frog<br>Google Keyword Plannner</td>
+								<td><strong>Content Operations</strong></td>
+								<td>Page Builds<br>Metadata Management<br>QA<br>Accessibility Alignment</td>
 							  </tr>
 							  <tr>
-								<td>On Page SEO</td>
-								<td>Meta Data Suggestions<br>Keyword Research</td>
+								<td><strong>SEO and Web Performance</strong></td>
+								<td>SEMrush<br>Screaming Frog<br>Google Keyword Plannner</td>
 							  </tr>
 							  <tr>
-								<td>Adobe Experience Cloud</td>
-								<td>Adobe GenStudio<br>Adobe Firefly</td>
+								<td><strong>Collaboration and Delivery</strong></td>
+								<td>Azure DevOps<br>Jira<br>Confluence<br>Figma</td>
 							  </tr>
 							  <tr>
-								<td>Prompt Writing for Content Generation</td>
-								<td>ChatGPT<br>Gemini</td>
+								<td><strong>Creative Automation</strong></td>
+								<td>Adobe Firefly<br>Adobe GenStudio</td>
 							  </tr>
 							  <tr>
-								<td>Data Analysis & Visualization</td>
-								<td>MySQL<br>Excel<br>Power BI<br>Tableau</td>
+								<td><strong>Analytics</strong></td>
+								<td>Power BI<br>Tableau<br>MySQL</td>
 							  </tr>
 							</tbody>
 						  </table>
-						<p><br>I hold a Bachelor of Engineering degree from REC and completed my schooling at Asan SSS.</p>					
-						<p>Outside of work, I enjoy playing badminton, learning new things, solving Rubik's cubes, and traveling.</p>
+						<h2 style="color:#00bcd4; padding-top: 50px;">Work Experience</h2>	
+						<p>I'm a Senior Specilist working at Credera (Omnicom Group) in Tamil Nadu, Chennai since Nov 2021.
+						<br><strong>During my time I have done the following:</strong></p>
+						<ul class="custom-bullets">
+							<li>Authored and published 1000+ pages across AEM, Drupal, HubSpot, and Contentful including multilingual and global variants for enterprise clients (Novartis, SHRM, Humana, UPS, and others)</li>
+							<li>Implemented layouts following UX/design specifications with accuracy and responsive behaviours and ensured metadata, alt text, DAM elements, internal linking, and navigation met accessibility and SEO standards using Screaming Frog, SEMrush, and Google Keyword Planner</li>
+							<li>Developed an AEM reverse translation authoring method for multilingual workflows which reduced authoring time by more than 80% and increased accuracy to more than 95%</li>
+							<li>Co-led CMS delivery for SHRM and UPS, ensuring content accuracy and cross-team collaboration</li>
+							<li>Trained team members on CMS authoring and QA standards for various projects</li>
+							<li>Delivered GenStudio and Firefly demos for clients and Performance Marketing teams, leading to adoption consideration</li>
+							<li>Collaborated with developers and client stakeholders to deliver content in agile sprints using Azure DevOps, Jira, and Confluence</li>
+						</ul>
+						<h2 style="color:#00bcd4;">Achievements, Awards, and Certifications</h2>	
+						<ul class="custom-bullets">
+							<li>Recognized as one of six high-performing team members in the Novartis for outstanding content delivery and accuracy</li>
+							<li>Received client recognition from UPS for AEM Global Reverse Translation</li>
+							<li>Recognized by SHRM for delivery excellence and on-time execution of complex web content authoring deliverables</li>
+							<li>Rookie Award - Mar 2022 - For excellent work as new joiner in Wrench Group LLC</li>
+							<li>SPOT Award - Feb 2023 - For increasing accuracy and workflow in Global Translation in UPS</li>
+							<li>Wow Award - Apr 2024 - For delivery excellence in SHRM</li>
+							<li>SEO Fundamentals from SEMrush</li>
+							<li>HubSpot Marketing Software from HubSpot</li>
+							<li>Data Science Professional Certificate from IBM</li>
+						</ul>
+						<p>Resume: <a href="files/Fahd Mohamed Neamathulla - Resume.pdf" target="_blank" style="color: #18bfef; font-weight: bold; text-decoration: none; transition: color 0.3s ease;">PDF</a> / <a href="files/Fahd Mohamed Neamathulla - Resume.docx" target="_self" style="color: #18bfef; font-weight: bold; text-decoration: none; transition: color 0.3s ease;">Word Document</a></p>
 						<p>Linkedin: <a href="https://www.linkedin.com/in/mohamed-fahd-neamathulla-92b1a4194/" target="_blank" style="color: #18bfef; font-weight: bold; text-decoration: none; transition: color 0.3s ease;">Fahd Mohamed N</a></p>
-						<ul class="actions">
+						<ul class="actions" style="padding-top: 50px;">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
 					</div>
@@ -177,7 +261,7 @@
 						<section>
 							<h3>Social</h3>
 							<ul class="icons alt">
-								<li><a href="https://www.linkedin.com/in/mohamed-fahd-neamathulla-92b1a4194/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://www.linkedin.com/in/fahd-md-n/" target="_blank" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 								<li><a href="https://github.com/FahdDewnology/Fahd-Repository/tree/main/Projects" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 								<li><a href="https://www.kaggle.com/work" target="_blank" class="icon brands alt fa-kaggle"><span class="label">Kaggle</span></a></li>
 							</ul>
